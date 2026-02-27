@@ -1,0 +1,1477 @@
+{
+  "records": [
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Chest pain"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    },
+    {
+      "disease": "Asthma",
+      "symptoms": [
+        "Shortness of breath",
+        "Wheezing",
+        "Coughing at night",
+        "Chest tightness"
+      ],
+      "treatment": [
+        "Inhaled bronchodilators",
+        "Inhaled corticosteroids",
+        "Avoiding triggers",
+        "Regular checkups"
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "symptoms": [
+        "Fever",
+        "Cough with mucus",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Antibiotics",
+        "Rest and hydration",
+        "Oxygen therapy (severe cases)"
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Blurred vision",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Blood pressure medication",
+        "Low-salt diet",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "disease": "Diabetes Type 2",
+      "symptoms": [
+        "Frequent urination",
+        "Increased thirst",
+        "Unexplained weight loss",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Oral hypoglycemic drugs",
+        "Insulin (sometimes)",
+        "Healthy diet",
+        "Exercise"
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Sensitivity to light",
+        "Sensitivity to sound"
+      ],
+      "treatment": [
+        "Pain relievers",
+        "Triptans",
+        "Rest in dark quiet room",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "symptoms": [
+        "Persistent cough",
+        "Coughing blood",
+        "Night sweats",
+        "Weight loss"
+      ],
+      "treatment": [
+        "6-month antibiotic regimen",
+        "Good nutrition",
+        "Regular follow-ups"
+      ]
+    },
+    {
+      "disease": "COVID-19",
+      "symptoms": [
+        "Fever",
+        "Dry cough",
+        "Loss of taste or smell",
+        "Shortness of breath"
+      ],
+      "treatment": [
+        "Isolation",
+        "Supportive care",
+        "Oxygen therapy",
+        "Antivirals (in some cases)"
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "symptoms": [
+        "Runny nose",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever"
+      ],
+      "treatment": [
+        "Rest",
+        "Hydration",
+        "Decongestants"
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "symptoms": [
+        "High fever",
+        "Chills",
+        "Sweats",
+        "Headache",
+        "Fatigue"
+      ],
+      "treatment": [
+        "Antimalarial drugs",
+        "Fever management",
+        "Hydration"
+      ]
+    },
+    {
+      "disease": "Anemia",
+      "symptoms": [
+        "Fatigue",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet rich in iron",
+        "Blood transfusion (severe cases)"
+      ]
+    }
+  ]
+}
