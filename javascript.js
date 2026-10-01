@@ -20,7 +20,7 @@
   fetch('/api/health').then(async response => {
     if (!response.ok) throw new Error();
     const data = await response.json();
-    status.textContent = data.configured ? 'Gemini assistant configured. Conversation stays in this tab until cleared.' : 'Assistant is not configured. The site owner must add a server API key.';
+    status.textContent = data.configured ? 'OpenAI assistant configured. Conversation stays in this tab until cleared.' : 'Assistant is not configured. The site owner must add a server API key.';
   }).catch(() => { status.textContent = 'Assistant server unavailable. Run this site with its Node server.'; });
   form.addEventListener('submit', async event => {
     event.preventDefault();

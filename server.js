@@ -21,7 +21,7 @@ function json(res, code, body) {
   res.writeHead(code, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' });
   res.end(JSON.stringify(body));
 }
-export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process.env.GEMINI_MODEL || 'gemini-3.8-flash', fetchImpl = fetch, limit = 12 } = {}) {
+export function createApp({ apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL || 'gpt-4.1-mini', fetchImpl = fetch, limit = 12 } = {}) {
   const requests = new Map();
   return createServer(async (req, res) => {
     try {
@@ -50,25 +50,27 @@ export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process
         if (!body || typeof body.message !== 'string' || !body.message.trim() || body.message.length > 2000) return json(res, 400, { error: 'Enter a message between 1 and 2000 characters.' });
         const history = body.history ?? [];
         if (!Array.isArray(history) || history.length > 10 || history.length % 2 !== 0 || history.some((item, i) => !item || item.role !== (i % 2 === 0 ? 'user' : 'assistant') || typeof item.text !== 'string' || !item.text.trim() || item.text.length > 12000)) return json(res, 400, { error: 'Invalid conversation history.' });
-        if (!apiKey) return json(res, 503, { error: 'AI is not configured. The site owner must set GEMINI_API_KEY on the server.' });
+        if (!apiKey) return json(res, 503, { error: 'AI is not configured. The site owner must set OPENAI_API_KEY on the server.' });
         if (!/^[a-zA-Z0-9._-]+$/.test(model)) return json(res, 503, { error: 'The AI model configuration is invalid.' });
         let upstream;
         try {
-          upstream = await fetchImpl(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-            method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
+          upstream = await fetchImpl('https://api.openai.com/v1/responses', {
+            method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
             signal: AbortSignal.timeout(30000),
             body: JSON.stringify({
-              systemInstruction: { parts: [{ text: instruction }] },
-              contents: [...history.map(item => ({ role: item.role === 'assistant' ? 'model' : 'user', parts: [{ text: item.text }] })), { role: 'user', parts: [{ text: body.message.trim() }] }],
-              generationConfig: { maxOutputTokens: 1536, temperature: 0.3 }
+              model, instructions: instruction, store: false,
+              input: [...history.map(item => ({ role: item.role, content: item.text })), { role: 'user', content: body.message.trim() }],
+              max_output_tokens: 1536
             })
           });
         } catch { return json(res, 504, { error: 'The AI service could not be reached. Please try again.' }); }
         if (!upstream.ok) return json(res, upstream.status === 429 ? 429 : 502, { error: upstream.status === 429 ? 'AI service is busy. Please try again later.' : 'AI service unavailable. The site owner should check the API key and model settings.' });
         const data = await upstream.json();
-        const candidate = data.candidates?.[0];
-        if (data.promptFeedback?.blockReason || !candidate || !['STOP', undefined].includes(candidate.finishReason)) return json(res, 502, { error: 'The AI could not provide a complete response. Try rephrasing your question.' });
-        const reply = candidate.content?.parts?.filter(part => !part.thought && typeof part.text === 'string').map(part => part.text).join('\n').trim();
+        if (data.status !== 'completed' || !Array.isArray(data.output)) return json(res, 502, { error: 'The AI could not provide a complete response. Try rephrasing your question.' });
+        const reply = data.output.filter(item => item.type === 'message' && item.role === 'assistant')
+          .flatMap(item => Array.isArray(item.content) ? item.content : [])
+          .filter(part => part.type === 'output_text' && typeof part.text === 'string')
+          .map(part => part.text).join('\n').trim();
         if (!reply || reply.length > 12000) return json(res, 502, { error: 'No usable response received. Please try again.' });
         return json(res, 200, { reply });
       }
